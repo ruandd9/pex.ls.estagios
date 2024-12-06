@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>LS Vagas</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/avatar.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center gap-1">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <img src="assets/img/logo-2.svg" alt="">
+      <p class="h4 text-light">user_guest</p>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.facebook.com/lsestagioseservicos/" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/lsestagios/" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+      <a href="https://www.instagram.com/lsestagios/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="index.html" class=""><i class="bi bi-house navicon"></i>Home</a></li>
+        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Estagio</span> <i
+              class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li class="dropdown"><a href="#"><span>Aluno</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="curriculo.html">Cadastrar curriculo!</a></li>
+                <li><a href="#">Sobre</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span>Empresa</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Faça parte!</a></li>
+                <li><a href="#">Sobre</a></li>
+              </ul>
+            <li class="dropdown"><a href="#"><span>Instituicao</span> <i
+                  class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Cadastre-se</a></li>
+                <li><a href="#">Sobre</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Conferir vagas de estagio</a></li>
+          </ul>
+        </li>
+        <li class="active"><a href="vagas.html"><i class="bi bi-file-earmark-text navicon "></i> Vagas</a></li>
+        <li><a href="service-details.html"><i class="bi bi-hdd-stack navicon"></i>Serviços Terceirizados</a></li>
+        <li><a href="jovem-aprendiz.html"><i class="bi bi-images navicon"></i> Jovem aprendiz</a></li>
+       
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background ">
+      <div class="container d-lg-flex justify-content-between align-items-center p-5">
+        <h1 class="mb-2 mb-lg-0">Enconte sua vaga</h1>
+        <div class="group">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+            <g>
+              <path
+                d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+              </path>
+            </g>
+          </svg>
+          <input placeholder="Search" type="search" class="input">
+        </div>
+        <nav class="breadcrumbs mt-3">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Vagas</li>
+          </ol>
+        </nav>
+      </div>
+
+
+
+
+    </div><!-- End Page Title -->
+
+    <div class="container mt-5">
+      <div class="search-container">
+        <div class="flex-grow-1">
+          <label for="job" class="form-label mb-0">O que?</label>
+          <input type="text" id="job" class="form-control" placeholder="Digite cargo ou área profissional">
+        </div>
+        <div class="divider"></div>
+        <div>
+          <label for="location" class="form-label mb-0">Onde?</label>
+          <select id="location" class="form-select">
+            <option selected>Distrito Federal</option>
+            <!-- Add other options as needed -->
+          </select>
+        </div>
+        <div class="ms-3">
+          <button type="button" class="btn">Achar Vagas</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4 shadow-lg my-5">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="profile-card p-5">
+            <img alt="Profile picture" height="80" src="assets/img/avatar.jpg" width="80" />
+            <h5>
+              user_guest
+            </h5>
+            <a href="curriculo.html">
+              Editar CV
+            </a>
+            <div class="progress mt-2">
+              <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="49" class="progress-bar" role="progressbar"
+                style="width: 49%;">
+              </div>
+            </div>
+            <p class="mt-2">
+              Preencha seu CV e candidate-se em poucos cliques a vagas nas melhores empresas parceiras.
+            </p>
+          </div>
+          <div class="filter-card mt-4">
+            <h6 class="text-primary">
+              FILTRAR VAGAS
+            </h6>
+            <form>
+              <div class="mb-3">
+                <label class="form-label" for="location">
+                  Localização
+                </label>
+                <input class="form-control" id="location" placeholder="Digite a localização" type="text" />
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="job-type">
+                  Tipo de Vaga
+                </label>
+                <select class="form-select" id="job-type">
+                  <option selected="">
+                    Selecione o tipo de vaga
+                  </option>
+                  <option value="full-time">
+                    Tempo Integral
+                  </option>
+                  <option value="part-time">
+                    Meio Período
+                  </option>
+                  <option value="remote">
+                    Remoto
+                  </option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="experience">
+                  Nível de Experiência
+                </label>
+                <select class="form-select" id="experience">
+                  <option selected="">
+                    Selecione o nível de experiência
+                  </option>
+                  <option value="entry">
+                    Iniciante
+                  </option>
+                  <option value="mid">
+                    Intermediário
+                  </option>
+                  <option value="senior">
+                    Sênior
+                  </option>
+                </select>
+              </div>
+              <button class="btn btn-primary" type="submit">
+                Aplicar Filtros
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="job-list">
+            <h5>
+              Vagas que podem ser de seu interesse
+            </h5>
+            <div class="job-item row">
+              <div class="col-md-8">
+                <a href="#">
+                  Analista Segurança Pl
+                </a>
+                <p class="job-details">
+                  4,2 ★ Stefanini
+                  <br />
+                  Brasília - DF, a 28,2 km de você.
+                  <i class="fas fa-building">
+                  </i>
+                  Presencial
+                </p>
+              </div>
+              <div class="col-md-4 job-date">
+                7 nov
+              </div>
+            </div>
+            <div class="job-item row">
+              <div class="col-md-8">
+                <a href="#">
+                  Instalador E Reparador De Telecomunicações
+                </a>
+                <p class="job-details">
+                  4,3 ★ BRAVA TELECOMUNICAÇÕES BRASÍLIA LTDA
+                  <br />
+                  Brasília - DF, a 30,8 km de você.
+                  <i class="fas fa-building">
+                  </i>
+                  Presencial
+                </p>
+              </div>
+              <div class="col-md-4 job-date">
+                5 nov
+              </div>
+            </div>
+            <div class="job-item row">
+              <div class="col-md-8">
+                <a href="#">
+                  Social Media
+                </a>
+                <p class="job-details">
+                  SKIN TONE LTDA
+                  <br />
+                  Riacho Fundo - DF, a 12,7 km de você.
+                  <i class="fas fa-building">
+                  </i>
+                  Presencial
+                </p>
+              </div>
+              <div class="col-md-4 job-date">
+                4 nov
+              </div>
+            </div>
+            <div class="job-item row">
+              <div class="col-md-8">
+                <a href="#">
+                  Técnico Noc
+                </a>
+                <p class="job-details">
+                  COLDY TELECOM
+                  <br />
+                  Brasília - DF, a 25 km de você.
+                  <i class="fas fa-building">
+                  </i>
+                </p>
+              </div>
+              <div class="col-md-4 job-date">
+                31 out
+              </div>
+            </div>
+            <div class="job-item row">
+              <div class="col-md-8">
+                <a href="#">
+                  Atendente De Suporte Técnico
+                </a>
+                <p class="job-details">
+                  4,3 ★ BRAVA TELECOMUNICAÇÕES BRASÍLIA LTDA
+                  <br />
+                  Brasília - DF, a 30,8 km de você.
+                  <i class="fas fa-building">
+                  </i>
+                  Presencial
+                </p>
+              </div>
+              <div class="col-md-4 job-date">
+                29 out
+              </div>
+            </div>
+            <div class="job-item row">
+              <div class="col-md-8">
+                <a href="#">
+                  Analista De Redes
+                </a>
+                <p class="job-details">
+                  4,2 ★ EWAWE DO BRASIL
+                  <br />
+                  Brasília - DF, a 56,8 km de você.
+                  <i class="fas fa-building">
+                  </i>
+                </p>
+              </div>
+              <div class="col-md-4 job-date">
+                25 out
+              </div>
+            </div>
+            <div class="job-item row">
+              <div class="col-md-8">
+                <a href="#">
+                  Auxiliar De Ti
+                </a>
+                <p class="job-details">
+                  5,0 ★ Serhum RH
+                  <br />
+                  Brasília - DF, a 20,3 km de você.
+                  <i class="fas fa-building">
+                  </i>
+                </p>
+              </div>
+              <div class="col-md-4 job-date">
+                22 out
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">L&S</strong> <span>Todos direitos reservados</span>
+        </p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        Designed by <a href="https://github.com/ruandd9">ruan lobo</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
